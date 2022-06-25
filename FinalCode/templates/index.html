@@ -86,12 +86,12 @@
         document.getElementById('password').value="";
 
         alert('Details saved');
-        
+        window.location = "{{url_for('base_get')}}";
 
-        setTimeout(function(){
-            window.location = 'base.html';
+        // setTimeout(function(){
+        //     window.location = {url_for('base')};
             
-         }, 2000);
+        //  }, 2000);
     });
 
     
